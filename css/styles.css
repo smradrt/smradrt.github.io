@@ -34,13 +34,25 @@
   color: #0645AD;                   
 }
 
-/* Custom style for links in the Publications section */
+.orange-link {
+    color: #FF8C00;
+}
+.orange-link:hover,
+.orange-link:focus {
+    color: #FF7F50;
+    text-decoration: underline;
+}
+
 #publications a {
-    color: #FF8C00; /* Darker orange color */
+    color: #FF8C00;
+}
+
+#header-content a {
+    color: #FF8C00;
 }
 
 #publications a:hover,
 #publications a:focus {
-    color: #FF7F50; /* Slightly different darker orange for hover/focus */
+    color: #FF7F50;
     text-decoration: underline;
 }
