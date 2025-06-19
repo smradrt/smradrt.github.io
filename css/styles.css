@@ -1,0 +1,35 @@
+.email-div {
+  display: inline-block;         
+  /* padding: 6px 12px;              */
+  
+  border-radius: 4px;            
+  font-family: Arial, sans-serif;
+  
+  color: #666;                   
+  cursor: pointer;               
+  user-select: text;             
+
+  font-size: 14px;
+}
+
+.email-div:hover {
+  /* border-radius: 16px;             */
+  /* background-color: #007BFF;      */
+  /* color: #fff;                    */
+  color: #0645AD;                   
+}
+
+.site-div {
+  display: inline-block;         
+  padding-bottom: 12px;
+  
+  border-radius: 4px;            
+  font-family: Arial, sans-serif;
+  
+  color: #666;                   
+  cursor: pointer;               
+  user-select: text;             
+
+  font-size: 14px;
+  color: #0645AD;                   
+}
