@@ -36,11 +36,11 @@
 
 /* Custom style for links in the Publications section */
 #publications a {
-    color: #FFDAB9; /* Light orange color */
+    color: #FF8C00; /* Darker orange color */
 }
 
 #publications a:hover,
 #publications a:focus {
-    color: #FFC080; /* Slightly lighter orange for hover/focus */
+    color: #FF7F50; /* Slightly different darker orange for hover/focus */
     text-decoration: underline;
 }
