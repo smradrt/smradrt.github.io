@@ -294,8 +294,10 @@
         </div>
       </div>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-5 text-center">
+        <!-- Removed justify-content-center as it's for Bootstrap 4+ -->
+        <div class="row">
+          <!-- Added col-md-offset-1 to center the two col-md-5 boxes -->
+          <div class="col-md-5 col-md-offset-1 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary"></i>
               <h3>Objective 1</h3>
