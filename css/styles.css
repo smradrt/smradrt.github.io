@@ -33,3 +33,14 @@
   font-size: 14px;
   color: #0645AD;                   
 }
+
+/* Custom style for links in the Publications section */
+#publications a {
+    color: #FFDAB9; /* Light orange color */
+}
+
+#publications a:hover,
+#publications a:focus {
+    color: #FFC080; /* Slightly lighter orange for hover/focus */
+    text-decoration: underline;
+}
